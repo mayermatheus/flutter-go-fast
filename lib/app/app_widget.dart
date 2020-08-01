@@ -10,7 +10,6 @@ class AppWidget extends StatelessWidget {
         primarySwatch: Colors.orange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Container(),
       initialRoute: '/',
       navigatorKey: Modular.navigatorKey,
       onGenerateRoute: Modular.generateRoute,
